@@ -1,8 +1,8 @@
 module "repositories" {
   source = "github.com/bitterbridge/terraform-modules//terraform/modules/repositories?ref=v0.0.429"
 
-  organization_name  = "ndouglas"
-  repositories_query = "topic:profile"
+  organization_name = "ndouglas"
+  query             = "topic:profile"
 }
 
 module "organization_basic" {
